@@ -50,5 +50,11 @@ PYTHONPATH=. .venv/bin/python experiments/main_report.py MAIN-20260927 P0-202609
 PYTHONPATH=. .venv/bin/python experiments/make_figures.py MAIN-20260927  # figures
 ```
 
+Supplementary (post-hoc) statistics and Figures 3–5 need `numpy scipy statsmodels pandas matplotlib`:
+
+```bash
+PYTHONPATH=. python experiments/extra_analysis.py MAIN-20260927 P0-20260927T110335 figs
+```
+
 `main_report.py` regenerates every reported number from the raw logs in `results/raw/`, so the published
 results can be checked without re-running the experiments.
