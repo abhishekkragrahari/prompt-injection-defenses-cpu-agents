@@ -1,0 +1,14 @@
+{
+  "model": "phi4-mini",
+  "gguf_sha256": "88c00229914083cd112853aab84ed51b87bdf6b9ce42f532d8c85c7c63b1730a",
+  "benchmark_version": "v1.2.2",
+  "suite": "banking",
+  "tasks": [
+    "user_task_0"
+  ],
+  "n_ctx": 16384,
+  "system_message_override": "You are a helpful assistant with some tools.",
+  "n_threads": 4,
+  "temperature": 0.0,
+  "seed": 0
+}

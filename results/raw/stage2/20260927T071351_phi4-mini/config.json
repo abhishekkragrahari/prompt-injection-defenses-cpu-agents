@@ -1,0 +1,17 @@
+{
+  "model": "phi4-mini",
+  "gguf_sha256": "88c00229914083cd112853aab84ed51b87bdf6b9ce42f532d8c85c7c63b1730a",
+  "benchmark_version": "v1.2.2",
+  "suite": "banking",
+  "tasks": [
+    "user_task_0",
+    "user_task_1",
+    "user_task_2",
+    "user_task_3",
+    "user_task_4"
+  ],
+  "n_ctx": 16384,
+  "n_threads": 4,
+  "temperature": 0.0,
+  "seed": 0
+}

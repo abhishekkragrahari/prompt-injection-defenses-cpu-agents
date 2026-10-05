@@ -1,0 +1,18 @@
+{
+  "model": "smollm3-3b",
+  "gguf_sha256": "8334b850b7bd46238c16b0c550df2138f0889bf433809008cc17a8b05761863e",
+  "benchmark_version": "v1.2.2",
+  "suite": "banking",
+  "tasks": [
+    "user_task_0",
+    "user_task_1",
+    "user_task_2",
+    "user_task_3",
+    "user_task_4"
+  ],
+  "n_ctx": 16384,
+  "system_message_override": null,
+  "n_threads": 4,
+  "temperature": 0.0,
+  "seed": 0
+}

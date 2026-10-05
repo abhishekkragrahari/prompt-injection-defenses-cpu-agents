@@ -1,0 +1,73 @@
+Sun Sep 27 13:29:30 IST 2026 START [1/30] qwen3-4b B0 A1 full
+Sun Sep 27 15:35:28 IST 2026 DONE  [1/30] results/raw/MAIN-20260927/qwen3-4b__B0__A1__test
+Sun Sep 27 15:35:28 IST 2026 START [2/30] qwen3-4b B1 A1 full
+Sun Sep 27 16:40:30 IST 2026 DONE  [2/30] results/raw/MAIN-20260927/qwen3-4b__B1__A1__test
+Sun Sep 27 16:40:30 IST 2026 START [3/30] qwen3-4b B2 A1 full
+Sun Sep 27 18:47:23 IST 2026 DONE  [3/30] results/raw/MAIN-20260927/qwen3-4b__B2__A1__test
+Sun Sep 27 18:47:23 IST 2026 START [4/30] qwen3-4b B3 A1 full
+Sun Sep 27 20:56:48 IST 2026 DONE  [4/30] results/raw/MAIN-20260927/qwen3-4b__B3__A1__test
+Sun Sep 27 20:56:48 IST 2026 START [5/30] qwen3-4b B4 A1 full
+Sun Sep 27 23:17:32 IST 2026 DONE  [5/30] results/raw/MAIN-20260927/qwen3-4b__B4__A1__test
+Sun Sep 27 23:17:32 IST 2026 START [6/30] granite4-micro B0 A1 full
+Mon Sep 28 00:48:57 IST 2026 DONE  [6/30] results/raw/MAIN-20260927/granite4-micro__B0__A1__test
+Mon Sep 28 00:48:57 IST 2026 START [7/30] granite4-micro B1 A1 full
+Mon Sep 28 01:41:03 IST 2026 DONE  [7/30] results/raw/MAIN-20260927/granite4-micro__B1__A1__test
+Mon Sep 28 01:41:03 IST 2026 START [8/30] granite4-micro B2 A1 full
+Mon Sep 28 03:16:00 IST 2026 DONE  [8/30] results/raw/MAIN-20260927/granite4-micro__B2__A1__test
+Mon Sep 28 03:16:00 IST 2026 START [9/30] granite4-micro B3 A1 full
+Mon Sep 28 04:45:21 IST 2026 DONE  [9/30] results/raw/MAIN-20260927/granite4-micro__B3__A1__test
+Mon Sep 28 04:45:21 IST 2026 START [10/30] granite4-micro B4 A1 full
+Mon Sep 28 06:36:52 IST 2026 DONE  [10/30] results/raw/MAIN-20260927/granite4-micro__B4__A1__test
+Mon Sep 28 06:36:52 IST 2026 START [11/30] qwen3-4b B1 A0 full
+Mon Sep 28 06:57:24 IST 2026 DONE  [11/30] results/raw/MAIN-20260927/qwen3-4b__B1__A0__test
+Mon Sep 28 06:57:24 IST 2026 START [12/30] qwen3-4b B2 A0 full
+Mon Sep 28 07:31:26 IST 2026 DONE  [12/30] results/raw/MAIN-20260927/qwen3-4b__B2__A0__test
+Mon Sep 28 07:31:26 IST 2026 START [13/30] qwen3-4b B3 A0 full
+Mon Sep 28 07:55:28 IST 2026 moved interrupted cell aside: results/raw/MAIN-20260927/qwen3-4b__B3__A0__test
+Mon Sep 28 07:55:28 IST 2026 START [13/30] qwen3-4b B3 A0 full
+Mon Sep 28 21:06:41 IST 2026 moved interrupted cell aside: results/raw/MAIN-20260927/qwen3-4b__B3__A0__test
+Mon Sep 28 21:06:41 IST 2026 START [13/30] qwen3-4b B3 A0 full
+Mon Sep 28 21:37:40 IST 2026 DONE  [13/30] results/raw/MAIN-20260927/qwen3-4b__B3__A0__test
+Mon Sep 28 21:37:40 IST 2026 START [14/30] qwen3-4b B4 A0 full
+Mon Sep 28 22:08:29 IST 2026 DONE  [14/30] results/raw/MAIN-20260927/qwen3-4b__B4__A0__test
+Mon Sep 28 22:08:29 IST 2026 START [15/30] granite4-micro B1 A0 full
+Mon Sep 28 22:26:59 IST 2026 DONE  [15/30] results/raw/MAIN-20260927/granite4-micro__B1__A0__test
+Mon Sep 28 22:26:59 IST 2026 START [16/30] granite4-micro B2 A0 full
+Mon Sep 28 22:50:21 IST 2026 DONE  [16/30] results/raw/MAIN-20260927/granite4-micro__B2__A0__test
+Mon Sep 28 22:50:21 IST 2026 START [17/30] granite4-micro B3 A0 full
+Mon Sep 28 23:14:01 IST 2026 DONE  [17/30] results/raw/MAIN-20260927/granite4-micro__B3__A0__test
+Mon Sep 28 23:14:01 IST 2026 START [18/30] granite4-micro B4 A0 full
+Mon Sep 28 23:38:01 IST 2026 DONE  [18/30] results/raw/MAIN-20260927/granite4-micro__B4__A0__test
+Mon Sep 28 23:38:01 IST 2026 START [19/30] qwen3-4b B2 A2 full
+Tue Sep 29 01:39:43 IST 2026 DONE  [19/30] results/raw/MAIN-20260927/qwen3-4b__B2__A2__test
+Tue Sep 29 01:39:43 IST 2026 START [20/30] qwen3-4b B3 A2 full
+Tue Sep 29 03:18:52 IST 2026 DONE  [20/30] results/raw/MAIN-20260927/qwen3-4b__B3__A2__test
+Tue Sep 29 03:18:52 IST 2026 START [21/30] qwen3-4b B4 A2 full
+Tue Sep 29 05:08:23 IST 2026 DONE  [21/30] results/raw/MAIN-20260927/qwen3-4b__B4__A2__test
+Tue Sep 29 05:08:23 IST 2026 START [22/30] granite4-micro B2 A2 full
+Tue Sep 29 06:39:02 IST 2026 DONE  [22/30] results/raw/MAIN-20260927/granite4-micro__B2__A2__test
+Tue Sep 29 06:39:02 IST 2026 START [23/30] granite4-micro B3 A2 full
+Tue Sep 29 22:10:44 IST 2026 moved interrupted cell aside: results/raw/MAIN-20260927/granite4-micro__B3__A2__test
+Tue Sep 29 22:10:44 IST 2026 START [23/30] granite4-micro B3 A2 full
+Tue Sep 29 23:24:16 IST 2026 DONE  [23/30] results/raw/MAIN-20260927/granite4-micro__B3__A2__test
+Tue Sep 29 23:24:16 IST 2026 START [24/30] granite4-micro B4 A2 full
+Wed Sep 30 00:59:54 IST 2026 DONE  [24/30] results/raw/MAIN-20260927/granite4-micro__B4__A2__test
+Wed Sep 30 00:59:54 IST 2026 START [25/30] qwen3-4b B4 A0 noS1
+Wed Sep 30 01:29:10 IST 2026 DONE  [25/30] results/raw/MAIN-20260927/qwen3-4b__B4-noS1__A0__test
+Wed Sep 30 01:29:10 IST 2026 START [26/30] qwen3-4b B4 A1 noS1
+Wed Sep 30 03:33:43 IST 2026 DONE  [26/30] results/raw/MAIN-20260927/qwen3-4b__B4-noS1__A1__test
+Wed Sep 30 03:33:43 IST 2026 START [27/30] qwen3-4b B4 A0 noS3
+Wed Sep 30 04:02:50 IST 2026 DONE  [27/30] results/raw/MAIN-20260927/qwen3-4b__B4-noS3__A0__test
+Wed Sep 30 04:02:50 IST 2026 START [28/30] qwen3-4b B4 A1 noS3
+Wed Sep 30 06:21:12 IST 2026 DONE  [28/30] results/raw/MAIN-20260927/qwen3-4b__B4-noS3__A1__test
+Wed Sep 30 06:21:12 IST 2026 START [29/30] qwen3-4b B4 A0 noS4
+Wed Sep 30 06:51:59 IST 2026 DONE  [29/30] results/raw/MAIN-20260927/qwen3-4b__B4-noS4__A0__test
+Wed Sep 30 06:51:59 IST 2026 START [30/30] qwen3-4b B4 A1 noS4
+Wed Sep 30 10:00:09 IST 2026 moved interrupted cell aside: results/raw/MAIN-20260927/qwen3-4b__B4-noS4__A1__test
+Wed Sep 30 10:00:09 IST 2026 START [30/30] qwen3-4b B4 A1 noS4
+Wed Sep 30 12:49:25 IST 2026 moved interrupted cell aside: results/raw/MAIN-20260927/qwen3-4b__B4-noS4__A1__test
+Wed Sep 30 12:49:25 IST 2026 START [30/30] qwen3-4b B4 A1 noS4
+Wed Sep 30 13:44:00 IST 2026 moved interrupted cell aside: results/raw/MAIN-20260927/qwen3-4b__B4-noS4__A1__test
+Wed Sep 30 13:44:00 IST 2026 START [30/30] qwen3-4b B4 A1 noS4
+Wed Sep 30 16:13:19 IST 2026 DONE  [30/30] results/raw/MAIN-20260927/qwen3-4b__B4-noS4__A1__test
+Wed Sep 30 16:13:19 IST 2026 ALL CELLS COMPLETE

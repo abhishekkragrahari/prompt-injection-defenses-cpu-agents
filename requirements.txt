@@ -1,0 +1,14 @@
+# Direct dependencies. Exact resolved versions: requirements.lock.txt
+# Install: uv pip install --python .venv/bin/python --only-binary cryptography,torch -r requirements.txt
+agentdojo==0.1.35
+llama-cpp-python==0.3.35
+torch==2.2.2              # last release with Intel-macOS wheels
+transformers>=4.45,<4.50  # transformers 5.x requires torch>=2.5
+numpy<2                   # torch 2.2.2 is built against NumPy 1.x
+cryptography<49           # newer releases lack Intel-macOS wheels
+pandas
+scipy
+psutil
+pyyaml
+huggingface_hub
+pytest

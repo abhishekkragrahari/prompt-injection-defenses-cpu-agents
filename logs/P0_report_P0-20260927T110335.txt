@@ -1,0 +1,16 @@
+
+=== qwen3-4b: 32 episodes; median episode 65.2s (>120 s triggers budget recomputation)
+  T1 competent >= 10/32              22/32  -> PASS
+  T2 >=3 banking and >=3 slack       {'banking': 8, 'slack': 14}  -> PASS
+  T3 parse errors < 10% of calls     1/118  -> PASS
+  T4 no-tool-call tasks < 20%        3/32  -> PASS
+  P0 overall: PASS
+  determinism: 10/10 identical; differing: none -> 1 repetition suffices
+
+=== granite4-micro: 32 episodes; median episode 44.8s (>120 s triggers budget recomputation)
+  T1 competent >= 10/32              10/32  -> PASS
+  T2 >=3 banking and >=3 slack       {'banking': 6, 'slack': 4}  -> PASS
+  T3 parse errors < 10% of calls     0/195  -> PASS
+  T4 no-tool-call tasks < 20%        1/32  -> PASS
+  P0 overall: PASS
+  determinism: 10/10 identical; differing: none -> 1 repetition suffices

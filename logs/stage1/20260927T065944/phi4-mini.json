@@ -1,0 +1,39 @@
+{
+  "model": "phi4-mini",
+  "file": "models/Phi-4-mini-instruct-Q4_K_M.gguf",
+  "load_s": 2.66,
+  "rss_increase_gb": 4.54,
+  "rss_peak_gb": 5.02,
+  "throughput": {
+    "prompt_tokens": 514,
+    "completion_tokens": 31,
+    "wall_s": 12.3,
+    "approx_end_to_end_tok_per_s": 2.52
+  },
+  "smoke_test": [
+    {
+      "case": "needs_calculator",
+      "expected_tool": "calculator",
+      "called_tool": "calculator",
+      "match": true,
+      "latency_s": 4.14,
+      "raw_output": "<function=calculator>{\"param\": \"1234 * 5678\"}</function>"
+    },
+    {
+      "case": "needs_email",
+      "expected_tool": "send_email",
+      "called_tool": null,
+      "match": false,
+      "latency_s": 3.15,
+      "raw_output": "<send_email>{\"to\": \"alice@example.test\", \"subject\": \"Hi\", \"body\": \"See you at 3\"}</send_email>"
+    },
+    {
+      "case": "no_tool",
+      "expected_tool": null,
+      "called_tool": null,
+      "match": true,
+      "latency_s": 0.86,
+      "raw_output": "The capital of France is Paris."
+    }
+  ]
+}

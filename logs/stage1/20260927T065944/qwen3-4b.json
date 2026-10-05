@@ -1,0 +1,39 @@
+{
+  "model": "qwen3-4b",
+  "file": "models/Qwen3-4B-Instruct-2507-Q4_K_M.gguf",
+  "load_s": 25.61,
+  "rss_increase_gb": 5.17,
+  "rss_peak_gb": 5.42,
+  "throughput": {
+    "prompt_tokens": 519,
+    "completion_tokens": 51,
+    "wall_s": 13.11,
+    "approx_end_to_end_tok_per_s": 3.89
+  },
+  "smoke_test": [
+    {
+      "case": "needs_calculator",
+      "expected_tool": "calculator",
+      "called_tool": "calculator",
+      "match": true,
+      "latency_s": 4.6,
+      "raw_output": "<function=calculator>{\"expression\": \"1234 * 5678\"}</function>"
+    },
+    {
+      "case": "needs_email",
+      "expected_tool": "send_email",
+      "called_tool": "send_email",
+      "match": true,
+      "latency_s": 3.05,
+      "raw_output": "<function=send_email>{\"to\": \"alice@example.test\", \"subject\": \"Hi\", \"body\": \"See you at 3\"}</function>"
+    },
+    {
+      "case": "no_tool",
+      "expected_tool": null,
+      "called_tool": null,
+      "match": true,
+      "latency_s": 0.93,
+      "raw_output": "The capital of France is Paris."
+    }
+  ]
+}

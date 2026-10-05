@@ -1,0 +1,37 @@
+{
+  "run_id": "S1-dev-smoke-20260927T075338",
+  "cell": "qwen3-4b__B1__A0__dev",
+  "model": "qwen3-4b",
+  "gguf_sha256": "3605803b982cb64aead44f6c1b2ae36e3acdb41d8e46c8a94c6533bc4c67e597",
+  "defense": "B1",
+  "gate_variant": "full",
+  "attack": "A0",
+  "split": "dev",
+  "attack_name": null,
+  "detector_model": null,
+  "detector_is_standin": false,
+  "pipeline_name": "local-qwen3-4b-B1",
+  "benchmark": {
+    "benchmark_version": "v1.2.2",
+    "agentdojo_package": "0.1.35",
+    "agentdojo_commit": "a75aba7631d3ca5fb7ab938965c97ead2f9ff84b"
+  },
+  "runtime": {
+    "n_ctx": 16384,
+    "n_threads": 4,
+    "temperature": 0.0,
+    "seed": 0,
+    "max_tokens": 1024
+  },
+  "task_filter": [
+    "banking:user_task_0",
+    "banking:user_task_2"
+  ],
+  "model_load_s": 3.8,
+  "started_utc": "2026-09-27T02:27:05.387557+00:00",
+  "host": {
+    "platform": "macOS-26.7-x86_64-i386-64bit",
+    "python": "3.11.16",
+    "cpu_count_physical": 4
+  }
+}

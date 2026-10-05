@@ -1,0 +1,18 @@
+{
+  "model": "granite4-micro",
+  "gguf_sha256": "97c417dcc0534b0737c74016fb2af083cb17c3b51eaac621192d23961b7024eb",
+  "benchmark_version": "v1.2.2",
+  "suite": "banking",
+  "tasks": [
+    "user_task_0",
+    "user_task_1",
+    "user_task_2",
+    "user_task_3",
+    "user_task_4"
+  ],
+  "n_ctx": 16384,
+  "system_message_override": null,
+  "n_threads": 4,
+  "temperature": 0.0,
+  "seed": 0
+}

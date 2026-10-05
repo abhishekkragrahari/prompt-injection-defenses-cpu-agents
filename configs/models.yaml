@@ -1,0 +1,57 @@
+# Pinned model artefacts. Roles per DECISIONS.md D10 (2026-09-27):
+# primary = M1, secondary = M2, rejected = screened out (kept for provenance).
+models:
+  qwen3-4b:
+    role: primary        # M1
+    base_model: Qwen/Qwen3-4B-Instruct-2507        # Apache-2.0, non-thinking only
+    gguf_repo: unsloth/Qwen3-4B-Instruct-2507-GGUF
+    gguf_revision: a06e946bb6b655725eafa393f4a9745d460374c9
+    file: models/Qwen3-4B-Instruct-2507-Q4_K_M.gguf
+    sha256: 3605803b982cb64aead44f6c1b2ae36e3acdb41d8e46c8a94c6533bc4c67e597
+    quantization: Q4_K_M
+    dialect: qwen3
+  phi4-mini:
+    role: rejected       # failed tool-calling screen (DECISIONS.md)
+    base_model: microsoft/Phi-4-mini-instruct      # MIT
+    gguf_repo: unsloth/Phi-4-mini-instruct-GGUF
+    gguf_revision: 78eb92a46fc37e6b524df991ed9aca9bc6aa7b80
+    file: models/Phi-4-mini-instruct-Q4_K_M.gguf
+    sha256: 88c00229914083cd112853aab84ed51b87bdf6b9ce42f532d8c85c7c63b1730a
+    quantization: Q4_K_M
+    dialect: phi4-mini
+  granite4-micro:
+    role: secondary      # M2, conditional on P0
+    base_model: ibm-granite/granite-4.0-micro      # Apache-2.0, 3.40B
+    gguf_repo: ibm-granite/granite-4.0-micro-GGUF  # official
+    gguf_revision: ec48475f0c811d812fbfb61975717a9c36eeb652
+    file: models/granite-4.0-micro-Q4_K_M.gguf
+    sha256: 97c417dcc0534b0737c74016fb2af083cb17c3b51eaac621192d23961b7024eb
+    quantization: Q4_K_M
+    dialect: granite4
+  smollm3-3b:
+    role: rejected       # failed tool-calling screen
+    base_model: HuggingFaceTB/SmolLM3-3B           # Apache-2.0, 3.08B
+    gguf_repo: ggml-org/SmolLM3-3B-GGUF
+    gguf_revision: 4965cb60b150737b68a0408c36aeefb65078f894
+    file: models/SmolLM3-Q4_K_M.gguf
+    sha256: 8334b850b7bd46238c16b0c550df2138f0889bf433809008cc17a8b05761863e
+    quantization: Q4_K_M
+    dialect: smollm3
+detector:
+  promptguard2-22m:
+    repo: meta-llama/Llama-Prompt-Guard-2-22M      # gated (Llama license accepted by PI; access verified 2026-09-27)
+    revision: 11614a155199674a0a95e6602d6ab0417b790ed0
+    model_safetensors_sha256: 5120e30bcd536ce285345d9ec104bea6bd6e8f94365b99a340c764f417ea5fa1  # matches HF LFS sha
+    tokenizer_json_sha256: 6eb983352e73f1697b883a8c3f6b66bdfa336ab3d29dd3687f8316d0ff2789c1
+    architecture: DebertaV2ForSequenceClassification (2 labels, max_position_embeddings 512)
+    safe_label: LABEL_0            # benign; LABEL_1 = malicious (D20)
+    threshold: 0.5                 # AgentDojo default (frozen spec)
+    max_tokens: 512                # model card: 512-token context; longer inputs split into segments
+    aggregation: flag if any window flagged
+    runtime: "transformers 4.49.0, torch 2.2.2, CPU; HF_HUB_OFFLINE=1 for all runs"
+runtime:
+  n_ctx: 16384       # raised in Stage 2: AgentDojo prompts + tool outputs
+  n_threads: 4        # physical cores
+  temperature: 0.0
+  seed: 0
+  max_tokens: 1024    # max output tokens per model call (D8)

@@ -1,0 +1,35 @@
+{
+  "run_id": "MAIN-20260927",
+  "cell": "granite4-micro__B4__A2__test",
+  "model": "granite4-micro",
+  "gguf_sha256": "97c417dcc0534b0737c74016fb2af083cb17c3b51eaac621192d23961b7024eb",
+  "defense": "B4",
+  "gate_variant": "full",
+  "attack": "A2",
+  "split": "test",
+  "attack_name": "adaptive_gate",
+  "detector_model": null,
+  "detector_is_standin": false,
+  "pipeline_name": "local-granite4-micro-B4",
+  "detector_config": null,
+  "benchmark": {
+    "benchmark_version": "v1.2.2",
+    "agentdojo_package": "0.1.35",
+    "agentdojo_commit": "a75aba7631d3ca5fb7ab938965c97ead2f9ff84b"
+  },
+  "runtime": {
+    "n_ctx": 16384,
+    "n_threads": 4,
+    "temperature": 0.0,
+    "seed": 0,
+    "max_tokens": 1024
+  },
+  "task_filter": null,
+  "model_load_s": 2.46,
+  "started_utc": "2026-09-29T17:54:24.279148+00:00",
+  "host": {
+    "platform": "macOS-26.7-x86_64-i386-64bit",
+    "python": "3.11.16",
+    "cpu_count_physical": 4
+  }
+}
